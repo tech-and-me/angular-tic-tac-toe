@@ -1,0 +1,25 @@
+
+.container {
+    height: 80vh;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.box {
+    width:7rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    margin: auto;
+    
+}
+
+h1 {
+    color: aliceblue;
+}
